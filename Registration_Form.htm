@@ -1,0 +1,135 @@
+<html>
+  <head>
+    <title>A Form</title>
+  </head>
+  <body>
+   <span><img src="logo.jpg" align="left" height="100" width="100"></img></span><br><br>
+   <Div id="Searchbar">
+   <span><a href="home">Home</a></span><b>|</b>
+    <span><a href="products">Products</a></span><b>|</b>
+    <span><a href="company">Company</a></span><b>|</b>
+    <span><a href="blog">Blog</a></span>
+    <input type="search" placeholder="Search"><br><br>
+  </Div>
+    <h1>
+    <center>
+      <p class="a">ONLINE REGISTRATION</p>
+    </center>
+  </h1>
+    <p>Welcome to Kellton Tech. This is the login page of Kellton Tech Solutions Ltd. is an Indian information technology and outsourcing company headquartered in Hyderabad,
+       India with offices in United States and Europe.
+    </p>
+    <form action="myform" target="self" method="POST">
+        <table>
+          <tr>
+              <td>
+                Title
+              </td>
+              <td>
+                <select>
+                  <option selected>Mr.</option>
+                  <option>Ms.</option>
+                </select>
+              </td>
+          </tr>
+          <tr>
+            <td>
+                First Name
+            </td>
+            <td>
+                <input type="text" name="firstname" placeholder="Firstname">
+            </td>
+          </tr>
+          <tr>
+              <td>
+                  Last Name
+              </td>
+              <td>
+                  <input type="text" name="lastname" placeholder="Lastname">
+              </td>
+            </tr>
+            <tr>
+                <td>
+                    DOB
+                </td>
+                <td>
+                    <input type="date" name="DOB">
+                </td>
+              </tr>
+              <tr>
+                  <td>
+                      Full Address
+                  </td>
+                  <td>
+                      <input type="text" maxlength="50">
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      Items you want
+                  </td>
+                  <td>
+                      <textarea rows="8" cols="50" placeholder="Item One&#013;Item Two&#013;Item Three"></textarea>
+                  </td>
+              </tr>
+              <tr>
+                  <td><br> Choose any</td>
+                  <td><br> <input type="radio" name="choice"> Choice One</td>
+              </tr>
+              <tr >
+                <td rowspan="2"></td>
+                <td> <input type="radio" name="choice"> Choice Two </td>
+              </tr>
+              <tr >
+                  <td> <input type="radio" name="choice"> Choice Three </td>
+              </tr>
+              <tr>
+                  <td>
+                      <br>
+                      Increment Number
+                  </td>
+                  <td>
+                      <br>
+                      <input type="number" step="1" name="increment">
+                  </td>
+              </tr>
+              <tr>
+                  <td rowspan="2">
+                    <br>
+                    <input type="checkbox" name="agree"> Agree with Terms and Conditions
+                  </td>
+              </tr>
+              <tr>
+                  <td rowspan="2">
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <input id="btn" type="submit" name="Register" value="Register">
+                      <input id="btn" type="button" name="Save" value="Save Draft">
+                  </td>
+              </tr>
+        </table>
+      </form>
+  </body>
+</html>
+
+
+<style>
+  input[type="search"] {
+    float: right;
+    font-size: 15px;
+  }
+  #Searchbar{
+    background-color: yellow;
+    font-size: 20px;
+
+  }
+  #btn{
+    background-color: aqua;
+  }
+  body{
+    background-color: cornsilk;
+  }
+</style>
+ 
